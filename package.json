@@ -1,0 +1,14 @@
+{
+  "name": "agent-copilot",
+  "version": "1.0.0",
+  "description": "AI Copilot for Developers",
+  "private": true,
+  "workspaces": ["packages/*", "services/*", "integrations/*"],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present"
+  },
+  "keywords": ["agent", "ai", "code-assist,autocomplete,refactor,debug"],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT"
+}
